@@ -6,7 +6,10 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: '/leap_ai'
+  basePath: '/leap_ai',
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;

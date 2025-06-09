@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { ArrowLeft, Mail, User, Building, Globe, CheckCircle, Sparkles, TrendingUp } from "lucide-react"
+import { Mail, User, Building, Globe, CheckCircle, Sparkles, TrendingUp } from "lucide-react"
 import { useState } from "react"
 import Link from "next/link"
 
