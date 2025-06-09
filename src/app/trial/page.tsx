@@ -44,7 +44,7 @@ export default function TrialPage() {
             </Link>
             
             <div className="flex items-center space-x-4">
-              <Link href="/login">
+              <Link href="/login/">
                 <Button variant="outline" size="sm">登录</Button>
               </Link>
             </div>
