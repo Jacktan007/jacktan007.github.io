@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
     unoptimized: true
   },
   basePath: '/leap_ai',
-  assetPrefix: '/leap_ai/',
+  assetPrefix: '/leap_ai',
   eslint: {
     ignoreDuringBuilds: true,
   },
