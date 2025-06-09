@@ -6,7 +6,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: '/leap_ai', // Temporarily disabled for local development
+  basePath: '/leap_ai',
+  assetPrefix: '/leap_ai/',
   eslint: {
     ignoreDuringBuilds: true,
   },
