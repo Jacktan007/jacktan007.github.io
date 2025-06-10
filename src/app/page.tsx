@@ -22,6 +22,7 @@ import {
   ChevronRight
 } from "lucide-react"
 import { useState, useEffect } from "react"
+import Link from 'next/link'
 
 export default function Home() {
   const [currentCase, setCurrentCase] = useState(0)
@@ -154,12 +155,12 @@ export default function Home() {
                <a href="#features" className="text-gray-600 hover:text-blue-600 transition-colors">功能</a>
                <a href="#cases" className="text-gray-600 hover:text-blue-600 transition-colors">案例</a>
                <a href="#pricing" className="text-gray-600 hover:text-blue-600 transition-colors">价格</a>
-               <a href="/login">
+               <Link href="/login">
                  <Button variant="outline" size="sm">登录</Button>
-               </a>
-               <a href="/trial">
+               </Link>
+               <Link href="/trial">
                  <Button size="sm" className="bg-blue-600 hover:bg-blue-700">免费试用</Button>
-               </a>
+               </Link>
              </nav>
           </div>
         </div>
@@ -184,11 +185,11 @@ export default function Home() {
           </p>
 
                      <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-             <a href="/trial">
+             <Link href="/trial">
                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 px-8">
                  免费开始体验 <ArrowRight className="ml-2 w-5 h-5" />
                </Button>
-             </a>
+             </Link>
              <Button variant="outline" size="lg" className="px-8">
                <Play className="mr-2 w-5 h-5" /> 观看演示视频
              </Button>
@@ -430,11 +431,11 @@ export default function Home() {
             加入数百个成功品牌的行列，体验5分钟完成KOC合作的魅力
           </p>
                      <div className="flex flex-col sm:flex-row gap-4 justify-center">
-             <a href="/trial">
+             <Link href="/trial">
                <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 px-8">
                  开始免费试用 Performance-Lite
                </Button>
-             </a>
+             </Link>
              <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-blue-600 px-8">
                预约专属Demo
              </Button>
